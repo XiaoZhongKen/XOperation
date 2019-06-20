@@ -13,6 +13,10 @@
 		1CDE4BFE22BB3996001E3EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE4BFD22BB3996001E3EDB /* Assets.xcassets */; };
 		1CDE4C0122BB3996001E3EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE4BFF22BB3996001E3EDB /* LaunchScreen.storyboard */; };
 		1CDE4C0422BB3996001E3EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE4C0322BB3996001E3EDB /* main.m */; };
+		1CDE4C0E22BB39B0001E3EDB /* Observer in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE4C0A22BB39AF001E3EDB /* Observer */; };
+		1CDE4C0F22BB39B0001E3EDB /* OperationQueue in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE4C0B22BB39AF001E3EDB /* OperationQueue */; };
+		1CDE4C1022BB39B0001E3EDB /* Operation in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE4C0C22BB39AF001E3EDB /* Operation */; };
+		1CDE4C1122BB39B0001E3EDB /* Condition in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE4C0D22BB39B0001E3EDB /* Condition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		1CDE4C0022BB3996001E3EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CDE4C0222BB3996001E3EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CDE4C0322BB3996001E3EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CDE4C0A22BB39AF001E3EDB /* Observer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Observer; sourceTree = "<group>"; };
+		1CDE4C0B22BB39AF001E3EDB /* OperationQueue */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OperationQueue; sourceTree = "<group>"; };
+		1CDE4C0C22BB39AF001E3EDB /* Operation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Operation; sourceTree = "<group>"; };
+		1CDE4C0D22BB39B0001E3EDB /* Condition */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Condition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 		1CDE4BF322BB3995001E3EDB /* XOperation */ = {
 			isa = PBXGroup;
 			children = (
+				1CDE4C0D22BB39B0001E3EDB /* Condition */,
+				1CDE4C0A22BB39AF001E3EDB /* Observer */,
+				1CDE4C0C22BB39AF001E3EDB /* Operation */,
+				1CDE4C0B22BB39AF001E3EDB /* OperationQueue */,
 				1CDE4BF422BB3995001E3EDB /* AppDelegate.h */,
 				1CDE4BF522BB3995001E3EDB /* AppDelegate.m */,
 				1CDE4BF722BB3995001E3EDB /* ViewController.h */,
@@ -128,9 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDE4C0E22BB39B0001E3EDB /* Observer in Resources */,
 				1CDE4C0122BB3996001E3EDB /* LaunchScreen.storyboard in Resources */,
+				1CDE4C1022BB39B0001E3EDB /* Operation in Resources */,
 				1CDE4BFE22BB3996001E3EDB /* Assets.xcassets in Resources */,
+				1CDE4C1122BB39B0001E3EDB /* Condition in Resources */,
 				1CDE4BFC22BB3995001E3EDB /* Main.storyboard in Resources */,
+				1CDE4C0F22BB39B0001E3EDB /* OperationQueue in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
